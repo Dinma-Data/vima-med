@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VIMA MED – Medical and public health communications by Dr. Chidinma Ndubuisi. Evidence-based health writing, blog articles, and patient education." />
+  <title>VIMA MED | Medical & Public Health Communications</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Inter (body) + Merriweather (headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       To edit: change the brand name or nav links below.
+       ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container">
+      <!-- Brand / Logo -->
+      <a href="#home" class="nav-brand">
+        VIMA <span>MED</span>
+      </a>
+
+      <!-- Desktop navigation links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+
+        <!-- Blog dropdown -->
+        <li class="has-dropdown">
+          <span class="nav-parent">
+            <a href="#blog">Blog</a>
+            <button class="dropdown-btn" aria-expanded="false" aria-label="Toggle Blog menu">▾</button>
+          </span>
+          <ul class="nav-dropdown" role="menu">
+            <li><a href="insecurity-public-health.html">Public Health</a></li>
+            <li><a href="postpartum-depression.html">Women's Health</a></li>
+            <li><a href="ai-in-healthcare.html">Healthcare Technology</a></li>
+            <li><a href="parkinsons-science.html">Neuroscience</a></li>
+            <li><a href="peptides-explained.html">Nutrition Science</a></li>
+          </ul>
+        </li>
+
+        <!-- Services dropdown -->
+        <li class="has-dropdown">
+          <span class="nav-parent">
+            <a href="#services">Services</a>
+            <button class="dropdown-btn" aria-expanded="false" aria-label="Toggle Services menu">▾</button>
+          </span>
+          <ul class="nav-dropdown" role="menu">
+            <li><a href="#services">Health Blog Writing</a></li>
+            <li><a href="#services">Regulatory Writing</a></li>
+            <li><a href="#services">Patient Education Materials</a></li>
+            <li><a href="#services">Research</a></li>
+            <li><a href="#services">SEO Health Content</a></li>
+            <li><a href="#services">Evidence-Based Health Writing</a></li>
+            <li><a href="#services">Technical Writing</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile hamburger button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+         To edit: update the headline, subheadline, or button text.
+         ============================================================ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Medical &amp; Public Health Communications</p>
+          <h1 class="hero-headline">
+            Clear, audience-appropriate medical and public health communication.
+          </h1>
+          <p class="hero-subheadline">
+            I help individuals, brands, and organizations communicate complex health information in ways that inform, engage, and drive meaningful outcomes.
+          </p>
+          <div class="hero-ctas">
+            <a href="#blog" class="btn btn-primary">Read Blog</a>
+            <a href="#contact" class="btn btn-outline">Contact</a>
+          </div>
+        </div>
+
+        <!-- Decorative accent element -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-badge">
+            <span class="hero-badge-icon">⚕</span>
+            <span class="hero-badge-text">Evidence-Based</span>
+          </div>
+          <div class="hero-badge hero-badge--offset">
+            <span class="hero-badge-icon">✦</span>
+            <span class="hero-badge-text">Clinically Informed</span>
+          </div>
+          <div class="hero-badge hero-badge--bottom">
+            <span class="hero-badge-icon">📋</span>
+            <span class="hero-badge-text">Audience-Appropriate</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         ABOUT SECTION
+         To edit: update bio text, headshot images, or add CV links.
+         To add a headshot for a professional:
+           1. Save photo as "assets/chidinma.jpg" (or "assets/vincent.jpg")
+           2. Replace the placeholder div with:
+              <img src="assets/chidinma.jpg" alt="Dr. Chidinma Ndubuisi" class="about-photo" />
+         ============================================================ -->
+    <section class="about section-pad" id="about">
+      <div class="container">
+
+        <!-- Section header -->
+        <div class="about-header">
+          <p class="section-label">About</p>
+          <h2 class="section-heading">Meet the Team</h2>
+        </div>
+
+        <!-- Stacked profile cards -->
+        <div class="about-cards">
+
+          <!-- ── Card 1: Dr. Chidinma Ndubuisi ── -->
+          <div class="about-card">
+            <!-- Photo column -->
+            <div class="about-card-photo">
+              <div class="about-photo-placeholder" aria-label="Headshot placeholder">
+                <span>Photo</span>
+              </div>
+              <!-- Future: <a href="assets/cv-chidinma.pdf" class="btn btn-outline btn-sm" download>Download CV</a> -->
+            </div>
+
+            <!-- Bio column -->
+            <div class="about-card-text">
+              <h3 class="section-heading" style="font-size:1.5rem; margin-bottom:0.25rem;">Dr. Chidinma Ndubuisi</h3>
+              <p class="about-tagline">Licensed Medical Doctor &amp; Public Health Professional</p>
+
+              <p>
+                I'm Chidinma Ndubuisi, a licensed medical doctor and public health professional with experience in medical and health communication. I write evidence-based content that makes complex health information clear, accurate, and accessible for different audiences.
+              </p>
+              <p>
+                My interests include public health, women's health, mental health, neuroscience, healthcare technology, preventive health, nutrition and supplement science, and emerging conversations in medical innovation.
+              </p>
+
+              <div class="about-tags">
+                <span class="tag">Public Health</span>
+                <span class="tag">Women's Health</span>
+                <span class="tag">Mental Health</span>
+                <span class="tag">Neuroscience</span>
+                <span class="tag">Healthcare Technology</span>
+                <span class="tag">Nutrition Science</span>
+              </div>
+            </div>
+          </div><!-- /card 1 -->
+
+          <!-- ── Card 2: Dr. Vincent Dada ── -->
+          <div class="about-card">
+            <!-- Photo column -->
+            <div class="about-card-photo">
+              <div class="about-photo-placeholder" aria-label="Headshot placeholder">
+                <span>Photo</span>
+              </div>
+              <!-- Future: <a href="assets/cv-vincent.pdf" class="btn btn-outline btn-sm" download>Download CV</a> -->
+            </div>
+
+            <!-- Bio column -->
+            <div class="about-card-text">
+              <h3 class="section-heading" style="font-size:1.5rem; margin-bottom:0.25rem;">Dr. Vincent Dada</h3>
+              <p class="about-tagline">Licensed Medical Doctor &amp; AI Engineer</p>
+
+              <p>
+                Dr. Vincent Dada is a licensed medical doctor and AI engineer with experience in regulatory documentation and technical writing. He specializes in creating technical and software documentation for health organisations, combining clinical expertise with advanced technology knowledge to support the growing intersection of medicine and AI.
+              </p>
+
+              <div class="about-tags">
+                <span class="tag">Regulatory Writing</span>
+                <span class="tag">Technical Writing</span>
+                <span class="tag">AI in Healthcare</span>
+                <span class="tag">Software Documentation</span>
+                <span class="tag">Health Technology</span>
+              </div>
+            </div>
+          </div><!-- /card 2 -->
+
+        </div><!-- /about-cards -->
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         BLOG SECTION
+         To edit: update each card's title, excerpt, and link.
+         To add a card: copy one <article class="blog-card"> block and paste it.
+         ============================================================ -->
+    <section class="blog section-pad bg-light" id="blog">
+      <div class="container">
+        <p class="section-label">Insights &amp; Articles</p>
+        <h2 class="section-heading">From the Blog</h2>
+        <p class="section-subtext">
+          Evidence-based articles written for professionals, patients, and curious minds.
+        </p>
+
+        <div class="blog-grid">
+
+          <!-- Blog Card 1 -->
+          <article class="blog-card">
+            <div class="blog-card-tag">Public Health</div>
+            <h3 class="blog-card-title">Insecurity as a Public Health Issue</h3>
+            <p class="blog-card-excerpt">
+              Chronic insecurity — economic, food, housing — silently shapes population health outcomes in ways that clinics alone cannot address. Here's why policymakers and health communicators must take note.
+            </p>
+            <a href="insecurity-public-health.html" class="blog-card-link">Read More &rarr;</a>
+          </article>
+
+          <!-- Blog Card 2 -->
+          <article class="blog-card">
+            <div class="blog-card-tag">Women's Health</div>
+            <h3 class="blog-card-title">Understanding Postpartum Depression</h3>
+            <p class="blog-card-excerpt">
+              Postpartum depression affects far more women than reported figures suggest. We unpack the biology, the stigma, and what evidence-based support actually looks like for new mothers.
+            </p>
+            <a href="postpartum-depression.html" class="blog-card-link">Read More &rarr;</a>
+          </article>
+
+          <!-- Blog Card 3 -->
+          <article class="blog-card">
+            <div class="blog-card-tag">Healthcare Technology</div>
+            <h3 class="blog-card-title">AI in Healthcare: What's True and What Isn't?</h3>
+            <p class="blog-card-excerpt">
+              Artificial intelligence is reshaping diagnostics, drug discovery, and patient care. But the conversation is noisy. A clinical look at what AI can and cannot yet do in medicine.
+            </p>
+            <a href="ai-in-healthcare.html" class="blog-card-link">Read More &rarr;</a>
+          </article>
+
+          <!-- Blog Card 4 -->
+          <article class="blog-card">
+            <div class="blog-card-tag">Neuroscience</div>
+            <h3 class="blog-card-title">The Science Behind Parkinson's Disease</h3>
+            <p class="blog-card-excerpt">
+              From dopaminergic pathways to the role of gut microbiota, our understanding of Parkinson's has evolved dramatically. A clear, science-first look at the current research landscape.
+            </p>
+            <a href="parkinsons-science.html" class="blog-card-link">Read More &rarr;</a>
+          </article>
+
+          <!-- Blog Card 5 -->
+          <article class="blog-card">
+            <div class="blog-card-tag">Nutrition Science</div>
+            <h3 class="blog-card-title">What Are Peptides? Understanding the Science and Hype</h3>
+            <p class="blog-card-excerpt">
+              Peptides are everywhere in wellness marketing. But what does the peer-reviewed science actually say? A balanced, evidence-based breakdown for the health-conscious reader.
+            </p>
+            <a href="peptides-explained.html" class="blog-card-link">Read More &rarr;</a>
+          </article>
+
+        </div><!-- /blog-grid -->
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SERVICES SECTION
+         To edit: update each service name or description text.
+         To add a service: copy one <div class="service-card"> block.
+         ============================================================ -->
+    <section class="services section-pad" id="services">
+      <div class="container">
+        <p class="section-label">What I Do</p>
+        <h2 class="section-heading">Services</h2>
+        <p class="section-subtext">
+          Clinically grounded. Strategically written. Tailored to your audience.
+        </p>
+
+        <div class="services-grid">
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">✍</div>
+            <h3>Health Blog Writing</h3>
+            <p>Engaging, research-backed blog posts that build audience trust and drive organic reach for health brands.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">🏥</div>
+            <h3>Medical &amp; Healthcare Articles</h3>
+            <p>Accurate, referenced articles for medical publications, healthcare organizations, and professional audiences.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">🌍</div>
+            <h3>Public Health Communication</h3>
+            <p>Clear messaging for public health campaigns, NGOs, and government health initiatives targeting diverse communities.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">📄</div>
+            <h3>Patient Education Materials</h3>
+            <p>Plain-language factsheets, guides, and explainers that help patients understand diagnoses, treatments, and preventive care.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">🔬</div>
+            <h3>Research Summaries</h3>
+            <p>Accessible summaries of clinical studies and scientific papers, translated for non-specialist readers without losing rigor.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">📈</div>
+            <h3>SEO Health Content</h3>
+            <p>Search-optimized health content that ranks well and still meets the accuracy standards expected in clinical communication.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">📚</div>
+            <h3>Evidence-Based Health Writing</h3>
+            <p>Long-form content grounded in peer-reviewed literature — white papers, reports, and in-depth feature articles.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">✔</div>
+            <h3>Editing &amp; Content Review</h3>
+            <p>Medical and scientific editing to improve clarity, accuracy, and readability of existing health content and manuscripts.</p>
+          </div>
+
+        </div><!-- /services-grid -->
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CONTACT SECTION
+         To edit: update email, LinkedIn URL, or WhatsApp number.
+         Note: the form is frontend-only (no emails are sent yet).
+         To enable form submission, connect a service like Formspree.
+         ============================================================ -->
+    <section class="contact section-pad bg-light" id="contact">
+      <div class="container contact-inner">
+
+        <!-- Contact info column -->
+        <div class="contact-info">
+          <p class="section-label">Get in Touch</p>
+          <h2 class="section-heading">Let's Work Together</h2>
+          <p class="contact-intro">
+            Whether you need a one-off article or an ongoing content partnership, I'd love to hear about your project.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-list-icon" aria-hidden="true">✉</span>
+              <a href="mailto:vima.medcoms@gmail.com">vima.medcoms@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-list-icon" aria-hidden="true">in</span>
+              <a href="https://www.linkedin.com/in/dr-chidinma-ndubuisi" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/dr-chidinma-ndubuisi
+              </a>
+            </li>
+            <li>
+              <span class="contact-list-icon" aria-hidden="true">💬</span>
+              <a href="https://wa.me/2347062558696" target="_blank" rel="noopener noreferrer">
+                WhatsApp: +234 706 255 8696
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact form column -->
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or question..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+
+          <!-- Success / error message shown by script.js -->
+          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       FOOTER
+       To edit: update the copyright year or social links.
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <span class="footer-logo">VIMA <strong>MED</strong></span>
+        <p>Medical &amp; Public Health Communications</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/dr-chidinma-ndubuisi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <!-- LinkedIn SVG icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <a href="https://wa.me/2347062558696" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <!-- WhatsApp SVG icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+        </a>
+        <a href="mailto:vima.medcoms@gmail.com" aria-label="Email">
+          <!-- Email SVG icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="footer-year"></span> VIMA MED. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
